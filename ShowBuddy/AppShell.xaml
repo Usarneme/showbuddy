@@ -11,26 +11,26 @@
       <Tab Title="Home" Icon="home.png">
         <ShellContent
             Title="My Shows"
-            ContentTemplate="{DataTemplate local:MainPage}"
-            Route="MainPage" />
+            ContentTemplate="{DataTemplate local:Home}"
+            Route="Home" />
       </Tab>
       <Tab Title="Search" Icon="search.png">
         <ShellContent
             Title="Search"
-            ContentTemplate="{DataTemplate local:MainPage}"
-            Route="MainPage" />
+            ContentTemplate="{DataTemplate local:Search}"
+            Route="Search" />
       </Tab>
       <Tab Title="Matcher" Icon="match.png">
         <ShellContent
             Title="Matcher"
-            ContentTemplate="{DataTemplate local:MainPage}"
-            Route="MainPage" />
+            ContentTemplate="{DataTemplate local:Matcher}"
+            Route="Matcher" />
       </Tab>
       <Tab Title="Settings" Icon="settings.png">
         <ShellContent
             Title="Settings"
-            ContentTemplate="{DataTemplate local:MainPage}"
-            Route="MainPage" />
+            ContentTemplate="{DataTemplate local:Settings}"
+            Route="Settings" />
       </Tab>
     </TabBar>
 

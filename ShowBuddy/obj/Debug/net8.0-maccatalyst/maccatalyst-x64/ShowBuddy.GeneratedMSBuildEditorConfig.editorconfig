@@ -28,12 +28,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = ShowBuddy.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/usarneme/showbuddy/ShowBuddy/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ShowBuddy.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
 [/Users/usarneme/showbuddy/ShowBuddy/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShowBuddy.Resources.Styles.Colors.xaml
@@ -45,3 +39,27 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShowBuddy.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/usarneme/showbuddy/ShowBuddy/Tabs/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShowBuddy.Tabs.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Tabs/Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Tabs/Home.xaml
+
+[/Users/usarneme/showbuddy/ShowBuddy/Tabs/Matcher.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShowBuddy.Tabs.Matcher.xaml
+build_metadata.AdditionalFiles.TargetPath = Tabs/Matcher.xaml
+build_metadata.AdditionalFiles.RelativePath = Tabs/Matcher.xaml
+
+[/Users/usarneme/showbuddy/ShowBuddy/Tabs/Search.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShowBuddy.Tabs.Search.xaml
+build_metadata.AdditionalFiles.TargetPath = Tabs/Search.xaml
+build_metadata.AdditionalFiles.RelativePath = Tabs/Search.xaml
+
+[/Users/usarneme/showbuddy/ShowBuddy/Tabs/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShowBuddy.Tabs.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Tabs/Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Tabs/Settings.xaml

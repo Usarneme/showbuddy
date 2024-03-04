@@ -1,10 +1,10 @@
 ﻿namespace ShowBuddy;
 
-public partial class MainPage : ContentPage
+public partial class Home : ContentPage
 {
 	int count = 0;
 
-	public MainPage()
+	public Home()
 	{
 		InitializeComponent();
 	}
