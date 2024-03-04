@@ -11,7 +11,7 @@
                 Source="buddies.jpg"
                 HeightRequest="185"
                 Aspect="AspectFit"
-                SemanticProperties.Description="dogs who are buddies who need to figure out what show to watch" />
+                SemanticProperties.Description="dogs who are buddies who want to figure out what show to watch" />
 
             <Label
                 Text="ShowBuddy (c)"

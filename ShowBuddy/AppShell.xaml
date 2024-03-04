@@ -7,9 +7,31 @@
     Shell.FlyoutBehavior="Disabled"
     Title="ShowBuddy">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+      <Tab Title="Home" Icon="home.png">
+        <ShellContent
+            Title="My Shows"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+      </Tab>
+      <Tab Title="Search" Icon="search.png">
+        <ShellContent
+            Title="Search"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+      </Tab>
+      <Tab Title="Matcher" Icon="match.png">
+        <ShellContent
+            Title="Matcher"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+      </Tab>
+      <Tab Title="Settings" Icon="settings.png">
+        <ShellContent
+            Title="Settings"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+      </Tab>
+    </TabBar>
 
 </Shell>
