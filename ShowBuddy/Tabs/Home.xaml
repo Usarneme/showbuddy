@@ -5,31 +5,52 @@
 
     <ScrollView>
         <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
+            Spacing="25"
+        >
+            <Label
+                Text="ShowBuddy (c)"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1"
+            />
             <Image
                 Source="buddies.jpg"
                 HeightRequest="185"
                 Aspect="AspectFit"
-                SemanticProperties.Description="dogs who are buddies who want to figure out what show to watch" />
-
-            <Label
-                Text="ShowBuddy (c)"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
-
+                SemanticProperties.Description="dogs who are buddies who want to figure out what show to watch"
+            />
             <Label
                 Text="Welcome to ShowBuddy"
+                FontSize="30"
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="helping buddies figure out what to watch together" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Button test"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+                SemanticProperties.Description="helping buddies figure out what to watch together"
+            />
+            <VerticalStackLayout>
+                <Frame BorderColor="DarkSlateGray" Padding="8,10,8,10">
+                    <Label
+                        Text="My Upcoming Shows"
+                        FontSize="25"
+                        HorizontalOptions="Fill"
+                        SemanticProperties.HeadingLevel="Level2"
+                    />
+                </Frame>
+                <Frame BorderColor="DarkSlateGray" Padding="8,10,8,10">
+                    <Label
+                        Text="Discover and Add New Shows"
+                        FontSize="25"
+                        HorizontalOptions="Fill"
+                        SemanticProperties.HeadingLevel="Level2"
+                    />
+                </Frame>
+                <Frame BorderColor="DarkSlateGray" Padding="8,10,8,10">
+                    <Label
+                        Text="My Completed Shows"
+                        FontSize="25"
+                        HorizontalOptions="Fill"
+                        SemanticProperties.HeadingLevel="Level2"
+                    />
+                </Frame>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 
