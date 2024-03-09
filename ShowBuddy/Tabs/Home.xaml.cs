@@ -6,4 +6,9 @@ public partial class Home : ContentPage
 	{
 		InitializeComponent();
 	}
+
+  private void OnTapped(object sender, EventArgs e)
+  {
+    DisplayAlert("Tapped", "Button was tapped!", "Ok");
+  }
 }

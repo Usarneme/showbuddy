@@ -8,25 +8,37 @@
     Title="ShowBuddy">
 
     <TabBar>
-      <Tab Title="Home" Icon="home.png">
+      <Tab
+        Title="Home"
+        Icon="home.png"
+      >
         <ShellContent
             Title="My Shows"
             ContentTemplate="{DataTemplate local:Home}"
             Route="Home" />
       </Tab>
-      <Tab Title="Search" Icon="search.png">
+      <Tab
+        Title="Search"
+        Icon="search.png"
+      >
         <ShellContent
             Title="Search"
             ContentTemplate="{DataTemplate local:Search}"
             Route="Search" />
       </Tab>
-      <Tab Title="Matcher" Icon="match.png">
+      <Tab
+        Title="Matcher"
+        Icon="match.png"
+      >
         <ShellContent
             Title="Matcher"
             ContentTemplate="{DataTemplate local:Matcher}"
             Route="Matcher" />
       </Tab>
-      <Tab Title="Settings" Icon="settings.png">
+      <Tab
+        Title="Settings"
+        Icon="settings.png"
+      >
         <ShellContent
             Title="Settings"
             ContentTemplate="{DataTemplate local:Settings}"

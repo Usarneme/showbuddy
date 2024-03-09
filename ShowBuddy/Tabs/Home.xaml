@@ -3,6 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShowBuddy.Home">
 
+    <ContentPage.Resources>
+      <Style x:Key="ExpandableHeadings" TargetType="Label">
+        <Setter Property="FontSize" Value="25" />
+        <Setter Property="HorizontalOptions" Value="Fill" />
+        <Setter Property="SemanticProperties.HeadingLevel" Value="Level2" />
+      </Style>
+    </ContentPage.Resources>
+
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"
@@ -27,28 +35,46 @@
             />
             <VerticalStackLayout>
                 <Frame BorderColor="DarkSlateGray" Padding="8,10,8,10">
+                  <ContentView>
+                    <ContentView.GestureRecognizers>
+                      <TapGestureRecognizer
+                      Tapped="OnTapped"
+                      NumberOfTapsRequired="1"
+                      />
+                    </ContentView.GestureRecognizers>
                     <Label
-                        Text="My Upcoming Shows"
-                        FontSize="25"
-                        HorizontalOptions="Fill"
-                        SemanticProperties.HeadingLevel="Level2"
+                    Text="My Upcoming Shows"
+                    Style="{StaticResource ExpandableHeadings}"
                     />
+                  </ContentView>
                 </Frame>
                 <Frame BorderColor="DarkSlateGray" Padding="8,10,8,10">
+                  <ContentView>
+                    <ContentView.GestureRecognizers>
+                      <TapGestureRecognizer
+                      Tapped="OnTapped"
+                      NumberOfTapsRequired="1"
+                      />
+                    </ContentView.GestureRecognizers>
                     <Label
-                        Text="Discover and Add New Shows"
-                        FontSize="25"
-                        HorizontalOptions="Fill"
-                        SemanticProperties.HeadingLevel="Level2"
+                    Text="Discover and Add New Shows"
+                    Style="{StaticResource ExpandableHeadings}"
                     />
+                  </ContentView>
                 </Frame>
                 <Frame BorderColor="DarkSlateGray" Padding="8,10,8,10">
+                  <ContentView>
+                    <ContentView.GestureRecognizers>
+                      <TapGestureRecognizer
+                      Tapped="OnTapped"
+                      NumberOfTapsRequired="1"
+                      />
+                    </ContentView.GestureRecognizers>
                     <Label
-                        Text="My Completed Shows"
-                        FontSize="25"
-                        HorizontalOptions="Fill"
-                        SemanticProperties.HeadingLevel="Level2"
+                    Text="My Completed Shows"
+                    Style="{StaticResource ExpandableHeadings}"
                     />
+                  </ContentView>
                 </Frame>
             </VerticalStackLayout>
         </VerticalStackLayout>
