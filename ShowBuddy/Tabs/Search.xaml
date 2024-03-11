@@ -11,6 +11,21 @@
                 Text="Search"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
+            <Button
+              x:Name="FetchMoviesButton"
+              Text="Search"
+            />
+            <Label x:Name="URLLabel" />
+            <Label x:Name="SearchErrorLabel" />
+
+            <CollectionView x:Name="MoviesCollectionView" ItemsSource="{Binding Movies}">
+              <CollectionView.ItemTemplate>
+                  <DataTemplate>
+                    <Label Text="{Binding Title}" />
+                    <!-- Add other UI elements as needed -->
+                  </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </VerticalStackLayout>
     </ScrollView>
 

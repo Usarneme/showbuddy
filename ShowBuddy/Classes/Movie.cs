@@ -1,3 +1,5 @@
+using System.Collections.ObjectModel;
+
 namespace ShowBuddy;
 
 public class Movie {
@@ -26,9 +28,14 @@ public class Movie {
   public string? Production { get; set; }
   public string? Website { get; set; }
   public string? Response { get; set; }
+
+  public static implicit operator ObservableCollection<object>(Movie? v)
+  {
+    throw new NotImplementedException();
+  }
 }
 
 public class Rating {
-  private string? Source;
-  private string? Value;
+  private string? Source { get; set; }
+  private string? Value { get; set; }
 }

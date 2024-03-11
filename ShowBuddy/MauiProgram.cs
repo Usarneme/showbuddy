@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-using DotNetEnv;
 
 namespace ShowBuddy;
 
@@ -20,7 +19,6 @@ public static class MauiProgram
 		builder.Logging.AddDebug();
 #endif
 
-    DotNetEnv.Env.Load();
 
 		return builder.Build();
 	}
